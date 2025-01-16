@@ -10,7 +10,8 @@
 
     <v-main>
       <v-container>
-        <DeliveryForm></DeliveryForm>
+        <!-- <DeliveryForm></DeliveryForm> -->
+         <DeliveryList> </DeliveryList>
       </v-container>
     </v-main>
 
@@ -40,13 +41,15 @@
 </template>
 
 <script>
-import DeliveryForm from './components/DeliveryForm.vue';
+// import DeliveryForm from './components/DeliveryForm.vue';
+import DeliveryList from './components/DeliveryList.vue';
 
 export default {
   name: 'App',
 
   components: {
-    DeliveryForm,
+    // DeliveryForm,
+    DeliveryList
   },
 
   data: () => ({
